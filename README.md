@@ -1,16 +1,19 @@
+/*
+
 -- mostrar o nome, sobrenome dos pacientes masculinos.  
-/*SELECT FIRST_NAME, LAST_NAME, GENDER FROM patients
+SELECT FIRST_NAME, LAST_NAME, GENDER FROM patients
 WHERE GENDER = 'M'; 
 
 
-
 -- mostrar nome, sobrenome dos pacientes que não pussuem alergias
-select first_name, last_name from patients
+SELECT first_name, last_name FROM PATIENTS
 WHERE allergies IS null; 
 
+
 -- mostrar nome dos pacientes que começam com a letra C
-select first_name FROM patients
-where first_name LIKE 'c%';
+SELECT first_name FROM PATIENTS
+WHERE first_name LIKE 'c%';
+
 
 -- mostrar nome, sobrenome dos pacientes que pesam entre 100 e 120kg
 select first_name, last_name FROM patients
