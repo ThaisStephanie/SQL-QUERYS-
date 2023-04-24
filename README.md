@@ -32,7 +32,7 @@ INNER JOIN province_names PN ON P.province_id = PN.province_id
 ; 
 
 -- mostrar a quantidade de pacientes que nasceram em 2010
-select birth_date FROM patients; 
+select birth_date FROM patients;   
 select count(*) AS TOTAL_PATIENTS FROM patients WHERE BIRTH_DATE LIKE '2010%'  ; 
 
 -- mostrar primeiro nome, sobrenome e altura do paciente mais alto. 
